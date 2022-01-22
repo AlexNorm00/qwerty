@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class HomeWork_2 {
     public static void main(String[] args) {
         //1
+
 //        for(int i=-3;i<=3;i++)
 //            System.out.println("число: "+i);
         //2
