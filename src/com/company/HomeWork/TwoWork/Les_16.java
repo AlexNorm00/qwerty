@@ -33,7 +33,6 @@ public class Les_16 {
             System.out.println();
         }
 
-        System.out.println();
         // №2
         System.out.println();
         for (int i = 4; i >= 1; i--) {
