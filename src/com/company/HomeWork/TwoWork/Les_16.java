@@ -1,5 +1,6 @@
 package com.company.HomeWork.TwoWork;
-
+//Your solution is interesting, actually:)
+//Try to do it using inner loops
 public class Les_16 {
     public static void main(String[] args) {
 //        5)**** Можете попрактиковаться и нарисовать оставшиеся 2 треугольника
@@ -11,6 +12,7 @@ public class Les_16 {
         char star='*';
         String text="";
         for (int i = 0; i < 4; i++) {
+            //for future: not good memory usage. StringBuilder is preferred in your solution
             text+=star;
             System.out.println(text);
         }
