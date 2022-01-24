@@ -11,8 +11,10 @@ public class Les_11 {
         int allNumbers=0;
         int i=0;
         while (i<=100){
+            //{...}
             if (i%2==0) evenNumbers+=i;
             else oddNumbers+=i;
+            //after loop we could allNumbers = evenNumbers + oddNumbers
             allNumbers+=i;
             i++;
         }
