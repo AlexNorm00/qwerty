@@ -11,6 +11,8 @@ public class Les_13 {
         System.out.print("Введите B:");
         int b = sc.nextInt();
         int summ=0;
+        //what about negative numbers?
+        //{...}
         for (int i = 1;i<=b;i++) summ+=a;
         System.out.println("Ответ: " +summ);
     }
