@@ -11,7 +11,9 @@ public class Les_13 {
         System.out.print("Введите B:");
         int b = sc.nextInt();
         int summ = 0;
+
         for (int i = 1; i <= b; i++) summ += a;
+        if (b<0) for (int i = 1; i >= b; i++) summ += a;
         System.out.println("Ответ: " + summ);
     }
 }
