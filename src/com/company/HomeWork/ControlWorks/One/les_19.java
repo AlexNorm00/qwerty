@@ -1,4 +1,4 @@
-package com.company.HomeWork.ThreWork;
+package com.company.HomeWork.ControlWorks.One;
 
 import java.util.Scanner;
 
