@@ -2,7 +2,7 @@ package com.company.HomeWork.FourWork;
 
 import java.util.Scanner;
 
-public class les_21 {
+public class Les_21 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         //1,2,2,3,4
