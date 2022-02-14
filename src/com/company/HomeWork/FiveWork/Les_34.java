@@ -14,9 +14,9 @@ public class Les_34 {
                 array[i][j] = j + 1;
                 if (j >= array[j].length / 2)
                     array[i][j] = array[j].length - array[i][j] + 1;
-                if (array[i][j] >= i + 2) //ВЫРЕЗАЕТ С 2ЙКИ первую половину
+                if (array[i][j] >= i + 2)
                     array[i][j] = -1;
-                if (i - 1 >= array[i].length / 2) //вырезает вторую половину
+                if (i - 1 >= array[i].length / 2)
                     array[i][j] = array[array[i].length - i - 1][j];
                 if (array[i][j] != -1) {
                     if (array[i][j] < 10)
