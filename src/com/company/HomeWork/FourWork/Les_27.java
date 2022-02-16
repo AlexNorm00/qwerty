@@ -18,8 +18,8 @@ public class Les_27 {
         for (int i = 0, j = 0; i < array.length; i++) {
               if (array[i] % 2 == 0) {
                   array2[j] = array[i];
-                  j++;
                   System.out.print(array2[j] + " ");
+                  j++;
               }
         }
     }
