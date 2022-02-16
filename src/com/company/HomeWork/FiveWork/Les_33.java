@@ -15,7 +15,7 @@ public class Les_33 {
         int size1 = scanner.nextInt();
         int[][] array = new int[size1][];
         for (int i = 0; i < size1; i++) {
-            System.out.println("\nВведите длинну " + i + "-о массива");
+            System.out.print("Введите длинну " + i + "-о массива:");
             array[i] = new int[scanner.nextInt()];
             for (int j = 0; j < array[i].length; j++) {
                 array[i][j] = random.nextInt(50);
